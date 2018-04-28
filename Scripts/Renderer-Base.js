@@ -87,4 +87,4 @@ window.onresize = function() {return resizeContext()}
 c.onmousedown = function(j) { return events(j, "mouseDown"); }
 c.onmouseup = function(j) {return events(j, "mouseUp"); }
 c.onmousemove = function(j) {return events(j, "mouseMove"); }
-c.onkeypress = function(j) {return events(j, "onKeyPress");}
+c.onkeydown = function(j) {return events(j, "onKeyPress");}
