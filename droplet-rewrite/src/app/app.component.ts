@@ -8,3 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'droplet-rewrite';
 }
+function onTabClosed({ detail: component }) {
+  console.log(component);
+}
+
+
